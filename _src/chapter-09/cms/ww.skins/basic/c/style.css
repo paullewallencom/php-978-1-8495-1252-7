@@ -1,0 +1,36 @@
+#wrapper{
+	width:80%;
+	margin:0 auto;
+	border:1px solid #000;
+}
+#menu-wrapper{
+	border-bottom:1px solid #000;
+}
+#menu-wrapper ul{
+	margin:10px 0 0 10px;
+}
+
+.fg-menu-container a{
+	border:1px solid #000;
+	text-decoration:none;
+	font-style:italic;
+	background:#fff;
+}
+.menu-fg a{
+	padding:5px;
+	text-decoration:none
+}
+.menu-fg li{
+	width:120px;
+}
+.menu-fg ul{
+	list-style:none;
+	padding:0;
+}
+.menu-on-left #menu-wrapper{
+	float:left;
+	width:130px;
+}
+.menu-on-left #page-wrapper{
+	margin-left:140px;
+}

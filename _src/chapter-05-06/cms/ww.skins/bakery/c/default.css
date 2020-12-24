@@ -1,0 +1,433 @@
+/*
+Design by Maria Reay
+http://www.webworks.ie
+*/
+
+body {
+	margin: 0;
+	padding: 0;
+	background: #a26f52;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #333333;
+}
+
+/* ____________________________
+
+                fonts 
+______________________________________*/
+
+h1, h2, h3 {
+	margin: 0;
+	padding: 0;
+	text-transform: lowercase;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-weight: normal;
+	color: #811305;
+}
+
+h1 {
+	letter-spacing: -1px;
+	font-size: 32px;
+}
+
+h2 {
+	font-size: 23px;
+}
+
+p, ul, ol {
+	margin: 0 0 1em 0;
+	text-align: justify;
+	line-height: 26px;
+}
+
+a:link {
+	color: #3B0700;	text-decoration: none;
+}
+
+a:hover, a:active {
+	text-decoration: none;
+	color: #3B0700;
+}
+
+a:visited {
+	text-decoration: none;
+	color: #3B0700;
+}
+
+img {
+	border: none;
+}
+/*_____________________________________
+
+       logo and company titles
+ ____________________________________*/
+
+#logoname {position:absolute;text-align:center;
+	top:23px;
+	left:23px;
+		padding-left: 10px;
+}
+
+#logoname h1 a{
+	font-size:28px !Important;
+	color: #FFFFFF;
+}
+
+#logoname h2 {	color: #FFFFFF;
+	font-size:18px;
+	
+}
+
+
+
+/* ____________________________
+
+                General Area 
+______________________________________*/
+
+
+
+/* Header */
+
+#header {
+	width: 939px;
+	background-color:#000000;
+	border:1px solid #000;
+	
+}
+#wrapper {position:relative;text-align:center;
+	width: 939px;
+	margin: 0 auto;	
+	background-color:#FFFFFF;
+
+	
+}
+
+/* Page */
+
+#contentwrapper {
+	width: 939px;
+	margin: 0 auto;
+	background-color:#FFFFFF;
+}
+
+/* Content */
+
+td.content {
+	width:630px;
+	padding: 30px 30px 0 30px;
+		background-color:#FFFFFF;
+		vertical-align:top;
+}
+
+
+
+/* Sidebar */
+td.sidebar {
+vertical-align:top;
+	padding: 10px 0 0 0;
+}
+
+
+#panelleft {
+	width:260px;
+	overflow:hidden;
+	
+}
+td#sidebar ul{
+	padding: 0 0 0 0;
+}
+
+td#sidebar li{
+	margin: 0 0 0 30px;
+}
+#sidebar {padding:5px;width:260px;overflow:hidden;margin-right:3px}
+.panel {}
+
+
+Table.maintable{
+	width:939px;
+}
+Table.maintable p{
+	margin: 0 0 2em 0;
+	text-align: justify;
+	line-height: 26px;
+}
+Table.maintable img{
+	margin:5px;
+}
+
+
+/*_________________________________________
+                 
+				 Menu 
+ _____________________________________________*/
+
+#mainmenu {
+	 width: 936px;
+	padding:7px 0 7px 0;
+	height:20px;
+	margin:0px;
+	padding-top:0px;
+	border:1px solid #000
+
+}
+
+#mainmenu a{
+	padding: 8px;
+	text-decoration: none;
+	text-transform: capitalize;
+	color: #FFFFFF; }
+	
+#mainmenu a:hover { 
+	color: #ffc000;  
+	text-decoration: none; 
+}
+#mainmenu a:active { 
+	color: white;  
+	text-decoration: none; 
+}
+
+.menu{
+	width:150px;
+	text-align: left;
+	display:block;
+	background:#a26f52;
+	margin:0;
+	padding:5px;
+	
+}
+a.menuItem,a.menuItem:visited{
+	display:block;
+	text-decoration:none;
+	color: white;
+	border-bottom:1px solid #fff;
+	padding-bottom:5px;
+		padding-top:5px;
+
+}
+a.menuItem:hover{
+	background:#3a75bb;
+	color:#fff;
+	border-bottom:1px solid #fff;
+	padding-bottom:5px;
+		padding-top:5px;
+}
+
+.menuBarTop {width: 890px;}
+
+
+
+
+
+/* ________________________________________
+
+                Footer 
+__________________________________________*/
+
+
+#footer {
+	margin: 0 auto;
+	padding: 0;
+	text-transform: uppercase;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	background-color:#000;
+	width: 939px;
+	color:#fff;
+	text-align:center;
+}
+#footer p{
+	margin: 0;
+}
+
+#footer-wrap a { text-align:center;
+	color:#fff;
+}
+
+#legal {
+	
+	color: #000000;
+}
+
+#legal a {
+	text-decoration: none;
+	color: #000000;
+}
+
+
+/*
+___________________________________________________________________________________________
+ 
+ image gallery is placed in a table with an id of image_gallery and a class of image_gallery 
+ ____________________________________________________________________________________________
+ */
+
+#image_gallery_prev_wrapper{
+	
+}
+
+.prev a{ 
+	text-decoration:none;
+	color:#990000 !important;
+}
+.prev a:hover{
+	text-decoration:none;
+	color:#666 !important;
+}
+
+.next a{
+	text-decoration:none;
+	color:#990000 !important;
+}
+.next a:hover{
+	text-decoration:none;
+	color:#666 !important;
+}
+
+.gallery_image {
+	padding:20px;
+}
+
+a .caption{
+	color:#990000;
+}
+ a:hover .caption{
+ 	color:#666;
+}
+ a:visit .caption{
+ 	color:#000;
+}
+
+/*___________________________________________
+                 
+				  Forms
+ ______________________________________________*/
+ 
+ /* Search */
+
+#search form{margin: 0;
+	padding: 0;
+}
+
+#search h2 {
+	margin-bottom: 20px;
+}
+
+ /* Contact Form*/
+ 
+form {
+	margin: 0 0 0 0;
+	padding: 0;
+}
+
+fieldset {
+	margin: 0;
+	padding: 20px;
+	border: border:1px solid #999;
+}
+
+legend {
+	
+}
+
+input, textarea, select {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #666;
+}
+
+
+#Name  {border:1px solid #666;width:190px;}
+#Company {border:1px solid #666;width:190px}
+#Address {border:1px solid #666;width:190px;height:90px;}
+#TelephoneNumber {border:1px solid #666;width:190px;}
+#email {border:1px solid #666;width:190px}
+#YourEnquiry{border:1px solid #666;width:190px;height:120px}
+.submitrow {text-align:right}
+
+th {text-align:right;vertical-align:top; padding: 0 20px 10px 0; color:#666}
+
+/* image Gallery*/
+.ad-gallery {
+  width: 500px;padding-left:30px !Important;
+
+}
+.ad-gallery, .ad-gallery * {
+  margin: 0;
+  margin-left:30px;
+  padding: 0;
+}
+  .ad-gallery .ad-image-wrapper {
+/* will hide it */
+      background   width: 100%;
+    height: 400px;
+    margin-bottom: 10px;
+    position: relative;
+    overflow: hidden;
+  }
+    .ad-gallery .ad-image-wrapper .ad-loader {
+      position: absolute;
+      z-index: 10;
+      top: 48%;
+      left: 48%;
+
+      border: 1px solid #CCC;
+    }
+    .ad-gallery .ad-image-wrapper .ad-next {
+      position: absolute;
+      right: 0;
+      top: 0;
+      width: 25%;
+      height: 100%;
+      cursor: pointer;
+      display: block;
+      z-index: 100;
+    }
+    .ad-gallery .ad-image-wrapper .ad-prev {
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 25%;
+      height: 100%;
+      cursor: pointer;
+      display: block;
+      z-index: 100;
+    }
+    .ad-gallery .ad-image-wrapper .ad-prev, .ad-gallery .ad-image-wrapper .ad-next {}
+      /* Or else IE : url(non-existing.jpg)\*/
+    
+     
+ .ad-forward {
+      position: absolute;
+      top: 0;
+	  right:20;
+      height: 100%;
+      z-index: 10;
+    }
+	
+	.ad-gallery .ad-forward {
+-moz-background-clip:border;
+-moz-background-inline-policy:continuous;
+-moz-background-origin:padding;
+background:transparent url(ad_scroll_forward.png) no-repeat scroll 0 22px;
+cursor:pointer;
+display:block;
+right:0;
+width:13px;
+}
+
+
+.ad-gallery .ad-controls {
+display:none
+}
+.ad-gallery .ad-thumbs .ad-thumb-list {
+float:left;
+list-style-image:none;
+list-style-position:outside;
+list-style-type:none;
+width:9000px;
+}
+
+

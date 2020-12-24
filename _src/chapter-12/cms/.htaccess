@@ -1,0 +1,10 @@
+<IfModule mod_deflate.c>
+	SetOutputFilter DEFLATE
+</IfModule>
+
+php_flag magic_quotes_gpc off
+
+RewriteEngine on
+RewriteRule ^kfmget/(.*)$ /j/kfm/get.php?id=$1 [L]
+RewriteRule ^([^./]{3}[^.]*)$ /index.php?page=$1 [QSA,L]
+

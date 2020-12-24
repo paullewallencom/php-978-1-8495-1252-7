@@ -1,0 +1,17 @@
+<html>
+	<head>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
+		<script src="jquery.remoteselectoptions.min.js"></script>
+		<script>
+			$(document).ready(function(){
+				$('select[name=countries]').remoteselectoptions({
+					url:'countries.html'
+				});
+			});
+		</script>
+	</head>
+	<body>
+		<em>select a country</em>
+		<select name="countries"><option value="IRL">Ireland</option></select>
+	</body>
+</html>

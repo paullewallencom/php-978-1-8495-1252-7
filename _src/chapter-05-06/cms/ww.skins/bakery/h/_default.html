@@ -1,0 +1,60 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!--
+Design by Maria Reay
+http://www.webworks.ie
+Title      : Bakery
+Version    : 1.0
+Description: A two-column, fixed-width and lightweight template ideal for 1024x768 resolutions. Suitable for blogs and small websites.
+-->
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title></title>
+<link href="/ww.skins/bakery/c/default.css" rel="stylesheet" type="text/css" />
+{{$METADATA}}
+</head>
+<body>
+
+<div id="wrapper">
+
+<!-- start header -->
+<div id="header"><div id="logoname"><h1><a href="/home">{{$WEBSITE_TITLE}}</a></h1>
+	<h2>{{$WEBSITE_SUBTITLE}}</h2></div>
+<!-- end header -->
+	<img src="/ww.skins/bakery/i/bread.jpg" class="banner-image"/>"
+	<div id="mainmenu">{{MENU}}</div></div>
+</div>
+<!-- start contentwrapper -->
+<div id="contentwrapper">
+	<table class="maintable">
+  <tr>
+    <td class="content">{{$PAGECONTENT}}</td>
+    <td class="sidebar"><div id="search" class="panel">
+								<form id="search" method="get" action="/">
+							  <table>
+								<tr>
+								  <td class="uppercase">Search: </td>
+								  <td><input onFocus="if(this.value=='Type and press enter...')this.value=''" onBlur="if(this.value=='')this.value='Type and press enter...'" value="Type and press enter..." id="searchfield" type="text" name="search"/></td>
+								</tr>
+							  </table>
+							</form></div>
+							<br />
+</td>
+  </tr>
+</table>
+													<!-- end content -->
+		
+		<div style="clear: both;">&nbsp;</div>
+</div>
+<!-- end contentwrapper -->
+
+				<!-- start footer -->
+				<div id="footer">
+				</div>
+				<!-- end footer -->
+
+</div>
+
+</body>
+</html>

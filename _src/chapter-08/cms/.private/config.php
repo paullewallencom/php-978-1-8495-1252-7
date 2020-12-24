@@ -1,0 +1,13 @@
+<?php
+$DBVARS=array(
+	'username'=>'cmsuser',
+	'password'=>'cmspass',
+	'hostname'=>'localhost',
+	'db_name'=>'cmsdb',
+	'theme'=>'basic',
+	'plugins'=>'forms',
+	'page-comments|moderation_email'=>'kae@verens.com',
+	'page-comments|moderation_enabled'=>'no',
+	'page-comments|version'=>'2',
+	'forms|version'=>'3'
+);
